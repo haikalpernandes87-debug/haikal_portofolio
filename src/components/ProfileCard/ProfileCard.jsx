@@ -307,11 +307,12 @@ const ProfileCardComponent = ({
             />
             {showUserInfo && (
               <div className="pc-user-info">
-                <div className="pc-user-details">
-                  <div className="pc-mini-avatar">
+                <div className="pc-user-details">   
+<div className="pc-mini-avatar">
                     <img
                       src={miniAvatarUrl || avatarUrl}
                       alt={`${name || "User"} mini avatar`}
+                      style={{ width: "300%", height: "100%", objectFit: "cover", objectPosition: "center top" }}
                       loading="lazy"
                       onError={(e) => {
                         const target = e.target;

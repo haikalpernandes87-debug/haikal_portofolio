@@ -9,6 +9,7 @@ export default Image;
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
 import Tools3 from "/assets/tools/nextjs.png";
+import Tools20 from "/assets/tools/capcut.png";
 import Tools4 from "/assets/tools/tailwind.png";
 import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
@@ -25,6 +26,8 @@ import Tools16 from "/assets/tools/ts.png";
 import Tools17 from "/assets/tools/php.png";
 import Tools18 from "/assets/tools/vite.png";
 import Tools19 from "/assets/tools/mysql.png";
+import Tools21 from "/assets/tools/kinemaster.png";
+import Tools22 from "/assets/tools/obs.jpg";
 
 
 export const listTools = [
@@ -43,9 +46,30 @@ export const listTools = [
     dad: "1100",
   },
   {
+    id: 4,
+    gambar: Tools20,
+    nama: "Capcut",
+    ket: "Editing Video",
+    dad: "100",
+  },
+  {
+    id: 21,
+    gambar: Tools21,
+    nama: "KineMaster",
+    ket: "Editing Video",
+    dad: "100",
+  },
+  {
+    id: 22,
+    gambar: Tools22,
+    nama: "OBS Studio",
+    ket: "Broadcaster Software",
+    dad: "100",
+  },
+  {
     id: 1,
     gambar: Tools1,
-    nama: "Visual Studio Code",
+    nama: "VisualStudioCode",
     ket: "Code Editor",
     dad: "100",
   },
@@ -99,13 +123,6 @@ export const listTools = [
     dad: "1500",
   },
   {
-    id: 16,
-    gambar: Tools16,
-    nama: "TypeScript",
-    ket: "Language",
-    dad: "1600",
-  },
-  {
     id: 17,
     gambar: Tools17,
     nama: "PHP",
@@ -139,67 +156,67 @@ export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+    title: "Duta Bahasa Sumatra Barat",
+    subtitle: "Memimpin arahan visual dan produksi konten kreatif untuk kampanye......",
+    fullDescription:"Memimpin arahan visual dan produksi konten kreatif untuk kampanye digital secara menyeluruh. Menghasilkan perpaduan desain grafis yang elegan dan konten video dinamis yang dirancang khusus untuk membangun awareness, serta mendongkrak engagement audiens secara signifikan di platform media sosial.",
     borderColor: "#b91c1c",
     gradient: "linear-gradient(145deg, #b91c1c, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://www.instagram.com/dutabahasasumbar/",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+    title: "Admisi UIN Imam Bonjol Padang",
+    subtitle: "Merancang strategi visual yang komprehensif untuk kampanye ...",
+    fullDescription:"Merancang strategi visual yang komprehensif untuk kampanye Penerimaan Mahasiswa Baru. Berfokus pada produksi aset grafis modern dan video promosi persuasif yang disesuaikan dengan tren audiens Gen-Z, guna mengoptimalkan jangkauan informasi dan meningkatkan interaksi calon mahasiswa.",
     borderColor: "#7f1d1d", 
     gradient: "linear-gradient(180deg, #7f1d1d, #050505)",
-    url: "https://github.com/rissss21",
+    url: "https://www.instagram.com/admisi.uinib/",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
-    subtitle: "An IoT-based healthcare project developed to measure and monitor...",
-    fullDescription:"An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+    title: "SEMA FST UINIB",
+    subtitle: "Mengelola identitas visual kelembagaan melalui desain grafis profesional...",
+    fullDescription:"Mengelola identitas visual kelembagaan melalui desain grafis profesional dan produksi konten multimedia. Fokus utama proyek ini adalah menjaga kewibawaan institusi sekaligus menghadirkan publikasi visual dan video informatif yang tetap engaging bagi civitas akademika.",
     borderColor: "#991b1b", 
     gradient: "linear-gradient(145deg, #991b1b, #0a0000)",
-    url: "https://github.com/rissss21",
+    url: "https://www.instagram.com/sema.fst.uinib/",
     dad: "300",
   },
   {
     id: 4,
     image: Proyek4,
-    title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    title: "SIBACSIP-UINIB",
+    subtitle: "Menciptakan pengalaman visual yang terintegrasi di media sosial...",
+    fullDescription:"Menciptakan pengalaman visual yang terintegrasi di media sosial melalui tata letak feed yang kohesif dan naratif. Menggabungkan elemen desain grafis dan cuplikan video untuk membangun visual storytelling bertema akademik internasional yang memikat dan interaktif.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://www.instagram.com/sibacsip.uinib/",
     dad: "400",
   },
     {
     id: 5,
     image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
+    title: "Genre Padang Pariaman",
+    subtitle: "Mengeksekusi branding acara berskala besar melalui produksi aset visual...",
+    fullDescription:"Mengeksekusi branding acara berskala besar melalui produksi aset visual yang berenergi tinggi. Meliputi perancangan identitas grafis yang kuat dan material video promosi untuk menciptakan hype, serta memaksimalkan partisipasi audiens muda selama masa kampanye.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://www.instagram.com/genrepadangpariaman/",
     dad: "500",
   },
   {
     id: 6,
     image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
+    title: "Duta Kampus UINIB",
+    subtitle: "Membangun sistem desain visual dan kampanye interaktif untuk mendongkrak...",
+    fullDescription:"Membangun sistem desain visual dan kampanye interaktif untuk mendongkrak partisipasi publik. Memadukan tata letak desain yang estetik dan konten video promosi guna menciptakan pengalaman audiens yang mulus, sekaligus melipatgandakan traffic dan engagement harian.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://www.instagram.com/dutakampus_uinibp/",
     dad: "600",
   },
 ];

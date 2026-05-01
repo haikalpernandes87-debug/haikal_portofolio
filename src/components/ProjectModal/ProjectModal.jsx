@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FiX, FiGithub } from 'react-icons/fi'; // Install react-icons jika belum: npm install react-icons
+import { FiX, FiGithub, FiInstagram } from 'react-icons/fi'; // Install react-icons jika belum: npm install react-icons
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
   // State untuk mengontrol animasi penutupan
@@ -71,8 +71,8 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center justify-center gap-2 font-semibold bg-violet-600 p-3 px-5 rounded-full w-full cursor-pointer border border-transparent hover:bg-violet-700 transition-colors"
             >
-                <FiGithub />
-                <span>Source Code</span>
+                <FiInstagram />
+                <span>Acc Instagram</span>
             </a>
         </div>
       </div>

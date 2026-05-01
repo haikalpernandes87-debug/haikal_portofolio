@@ -74,7 +74,7 @@ function App() {
 
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
-            <div className="flex items-center gap-3 mb-6 bg-zinc-900/80 border border-red-900/40 shadow-[0_0_15px_rgba(220,38,38,0.15)] w-fit p-4 rounded-2xl">              <img src="./assets/haikal1.png" className="w-10 rounded-md" />
+            <div className="flex items-center gap-3 mb-6 bg-zinc-900/80 border border-red-900/40 shadow-[0_0_15px_rgba(220,38,38,0.15)] w-fit p-4 rounded-2xl">              <img src="/assets/haikal1.png" className="w-10 rounded-md" />
               <q>Every pixel tells a story</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
@@ -89,7 +89,7 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
-                href="./assets/CV.pdf" 
+                href="/assets/CV.pdf" 
                 download="Haikal_Pernandes_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
@@ -109,7 +109,8 @@ function App() {
               handle="hklprds"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/haikal.png"
+              avatarUrl="/assets/haikal.png"
+              miniAvatarUrl="/assets/haikal3.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
@@ -138,9 +139,9 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-red-600">+</span>
+                      100<span className="text-red-600">+</span>
                     </h1>
-                    <p>Project Finished</p>
+                    <p>Editing (Photo&Video)</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
